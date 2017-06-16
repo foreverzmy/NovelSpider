@@ -1,0 +1,25 @@
+{
+  "name": "orangearoma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/index.ts",
+  "scripts": {
+    "prestart": "tsc",
+    "start": "node ./dist/app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cheerio": "^0.22.1",
+    "@types/iconv-lite": "^0.0.1",
+    "@types/request": "^0.0.44",
+    "cheerio": "^1.0.0-rc.1",
+    "iconv-lite": "^0.4.18",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.22",
+    "ts-node": "^3.0.4",
+    "typescript": "^2.3.4"
+  }
+}
